@@ -1,16 +1,8 @@
-# Responsive Portfolio Website Patrick
-## [Watch it on youtube](https://youtu.be/Y4-xMb-eHOQ)
-### Responsive Portfolio Website Patrick
+# William Urvan Portfolio
 
-- Responsive Portfolio Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a beautiful dark theme.
-- The color of the project can be customized.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Static portfolio site hosted with GitHub Pages.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+## Project Pages
 
-![preview img](/preview.png)
+- `projects/project-one/` - Cave Crawlers
+- `projects/bathtub-racing/` - Southern Bathtub Racing Game

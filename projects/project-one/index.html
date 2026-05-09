@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="shortcut icon" href="../../assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="../../assets/css/styles.css">
+
+      <title>Cave Crawlers - William Urvan</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="../../index.html#home" class="nav__logo">William<span>Urvan</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="../../index.html#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#about" class="nav__link">About</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#skills" class="nav__link">Skills</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#services" class="nav__link">Services</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#projects" class="nav__link active-link">Projects</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <button class="nav__close" id="nav-close" aria-label="Close menu">
+                  <i class="ri-close-line"></i>
+               </button>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+               <i class="ri-menu-4-line"></i>
+            </button>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="project-hero section" id="project-top">
+            <div class="project-hero__container container grid">
+               <div class="project-hero__content">
+                  <a href="../../index.html#projects" class="project__back">
+                     <i class="ri-arrow-left-line"></i>
+                     Back to projects
+                  </a>
+
+                  <p class="section__subtitle">Featured <span>Project</span></p>
+                  <h1 class="project-hero__title">Cave Crawlers</h1>
+                  <p class="project-hero__description">
+                     A <span class="text-highlight">multiplayer roguelite RPG</span> set deep underground,
+                     built around <span class="text-highlight">random biome generation</span>, huge talent
+                     trees, hundreds of items, and boss fights.
+                  </p>
+
+                  <div class="project__tags">
+                     <span>Unity</span>
+                     <span>C#</span>
+                     <span>Photon</span>
+                     <span>PlayFab</span>
+                     <span>Steamworks</span>
+                     <span>Gameplay Systems</span>
+                     <span>Procedural Biomes</span>
+                     <span>Small Team</span>
+                  </div>
+
+                  <div class="project__actions">
+                     <a href="https://store.steampowered.com/app/2143030/Cave_Crawlers/" target="_blank" rel="noreferrer" class="button">
+                        Play Free on Steam
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                     <a href="https://www.youtube.com/watch?v=U86R7E7TJFg" target="_blank" rel="noreferrer" class="button button--ghost">
+                        Watch Trailer
+                        <i class="ri-youtube-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="project-hero__media project-hero__media--logo">
+                  <img src="../../assets/img/cavecrawlers/Library_Logo.png" alt="Cave Crawlers logo" class="project-hero__logo">
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-overview">
+            <div class="project-layout container grid">
+               <aside class="project-facts">
+                  <h2 class="project-facts__title">Quick Facts</h2>
+
+                  <dl class="project-facts__list">
+                     <div>
+                        <dt>Role</dt>
+                        <dd>Programmer, designer, manager</dd>
+                     </div>
+
+                     <div>
+                        <dt>Status</dt>
+                        <dd>Released in Early Access</dd>
+                     </div>
+
+                     <div>
+                        <dt>Tools</dt>
+                        <dd>Unity, C#, Steamworks, Photon, PlayFab, UVCS</dd>
+                     </div>
+
+                     <div>
+                        <dt>Timeline</dt>
+                        <dd>2022 - Current</dd>
+                     </div>
+
+                     <div>
+                        <dt>Platform</dt>
+                        <dd>Windows, Steam</dd>
+                     </div>
+                  </dl>
+               </aside>
+
+               <article class="project-writeup">
+                  <p class="section__subtitle">Project <span>Overview</span></p>
+                  <h2 class="section__title">What This Is</h2>
+
+                  <p>
+                     Players venture into randomly generated underground caves as dwarves, fighting mobs,
+                     discovering loot, and taking down bosses. They create builds by combining
+                     <span class="text-highlight">hundreds of talents and items</span>.
+                  </p>
+
+                  <p>
+                     My brother and I started Cave Crawlers many years ago as a passion project. I am the
+                     <span class="text-highlight">sole gameplay programmer</span>, while he handles art
+                     and level design. We both do game design, evaluate player feedback, and keep improving
+                     the experience.
+                  </p>
+
+               </article>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-role">
+            <div class="container">
+               <p class="section__subtitle">My <span>Role</span></p>
+               <h2 class="section__title">What I Worked On</h2>
+
+               <div class="project-role__grid grid">
+                  <article class="project-role__card">
+                     <i class="ri-code-box-line"></i>
+                     <h3>Systems</h3>
+                     <p>
+                        As the sole programmer, I have implemented a huge range of systems over the years:
+                        the character controller, entities, enemy scaling, biome generation, talents, perks,
+                        items, XP, tasks, achievements, boss fights, and event rooms. I worked extensively with
+                        <span class="text-highlight">Photon multiplayer</span> to create the server browser,
+                        lobby system, generation sync, spawning sync, player stats, physics, and more. I
+                        implemented Steamworks for lobbies and player status, and integrated
+                        <span class="text-highlight">PlayFab</span> for analytics and LiveOps.
+                     </p>
+                  </article>
+
+                  <article class="project-role__card">
+                     <i class="ri-gamepad-line"></i>
+                     <h3>Design</h3>
+                     <p>
+                        We use Trello to organize development, track tasks, and record new ideas. Every
+                        month we decide what needs to be finished for the next update. We follow player
+                        suggestions, bug reports, and our own ideas, steering Cave Crawlers toward the
+                        game both we and the players want to see.
+                     </p>
+                  </article>
+
+                  <article class="project-role__card">
+                     <i class="ri-tools-line"></i>
+                     <h3>Production</h3>
+                     <p>
+                        As a team of two, we designed the Steam page, created the trailers, and wrote
+                        the update blogs. When developing a new feature, we run through it until satisfied,
+                        then evaluate player feedback during <span class="text-highlight">organized Discord playtests</span>. We keep improving
+                        systems, no matter their age, whenever we or the players find a better direction.
+                        I optimize Cave Crawlers for <span class="text-highlight">low-end PCs</span>, keeping the graphics requirements
+                        and storage space minimal, so almost anyone can jump in.
+                     </p>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-gallery">
+            <div class="container">
+               <p class="section__subtitle">Screenshots <span>& Media</span></p>
+               <h2 class="section__title">Gallery</h2>
+
+               <div class="project-gallery grid">
+                  <figure class="project-gallery__item project-gallery__item--wide">
+                     <img src="../../assets/img/cavecrawlers/FlyingWyrm.png" alt="Cave Crawlers player riding a Lava Wyrm in the Molten Collapse biome">
+                     <figcaption>A geared player flying on a Lava Wyrm in the Molten Collapse biome.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/ShrineFightScreenshot.jpg" alt="Cave Crawlers players fighting enemies at the Ancient Shrine event room">
+                     <figcaption>Players fighting mobs at the Ancient Shrine event room.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/GladiatorFight.png" alt="Cave Crawlers players fighting Goblin Gladiators in the arena">
+                     <figcaption>Goblin Gladiators attacking players in the Goblin Arena event room.</figcaption>
+                  </figure>
+
+                   <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/0.889TalentTree.png" alt="Cave Crawlers expertise talent tree interface">
+                     <figcaption>Our huge expertise talent tree, each with a proc effect.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/AmethystShardShoulderpads.png" alt="Cave Crawlers Amethyst Shard Shoulderpads item effect">
+                     <figcaption>The Amethyst Shard Shoulderpads complex proc effect.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/TasksScreenshot.png" alt="Cave Crawlers tasks screen">
+                     <figcaption>The tasks screen, where players view and complete tasks.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/PerksScreenshot.png" alt="Cave Crawlers slottable perks screen">
+                     <figcaption>Slottable perks, each with a game changing effect.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/VolacnoFight.png" alt="Cave Crawlers final boss Volacno attacking a player">
+                     <figcaption>The final boss, Volacno, destroying a player.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/cavecrawlers/CursedBladeScenematic.png" alt="Cave Crawlers cinematic shot in the Cursed Blade event room">
+                     <figcaption>A cinematic shot in the Cursed Blade event room.</figcaption>
+                  </figure>
+               </div>
+
+               <div class="project-video project-video--embed">
+                  <div class="project-video__copy">
+                     <p class="project-video__label">Official Trailer</p>
+                     <h3>Cave Crawlers Gameplay Trailer</h3>
+                     <p>
+                        The trailer gives visitors the fastest read on the game's tone: co-op
+                        cave crawling, build variety, underground biomes, loot, and boss fights.
+                     </p>
+                  </div>
+
+                  <div class="project-video__frame">
+                     <iframe src="https://www.youtube.com/embed/U86R7E7TJFg" title="Cave Crawlers gameplay trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+               </div>
+
+               <div class="project-video project-video--embed">
+                  <div class="project-video__copy">
+                     <p class="project-video__label">Major Update</p>
+                     <h3>Molten Collapse and Volacno</h3>
+                     <p>
+                        The Molten Collapse update is worth calling out because it shows our growth in
+                        development quality and quantity. We added an entire new biome, enemies, loot,
+                        rooms, and the <span class="text-highlight">Volacno boss fight</span> in one update.
+                     </p>
+                  </div>
+
+                  <div class="project-video__frame">
+                     <iframe src="https://www.youtube.com/embed/kygfEz9hICE" title="Cave Crawlers Molten Collapse and Volacno trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-results">
+            <div class="project-results container grid">
+               <div>
+                  <p class="section__subtitle">Release <span>Info</span></p>
+                  <h2 class="section__title">Where To Find It</h2>
+                  <p class="project-results__description">
+                     Cave Crawlers is <span class="text-highlight">free to play on Steam</span>. The game
+                     is still in heavy development, receiving frequent content updates and gameplay changes over time.
+                  </p>
+               </div>
+
+               <div class="project-links">
+                  <a href="https://store.steampowered.com/app/2143030/Cave_Crawlers/" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-steam-line"></i>
+                     Play Free on Steam
+                  </a>
+
+                  <a href="https://www.youtube.com/watch?v=U86R7E7TJFg" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-youtube-line"></i>
+                     Watch Gameplay Trailer
+                  </a>
+
+                  <a href="https://www.youtube.com/watch?v=kygfEz9hICE" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-youtube-line"></i>
+                     Watch Molten Collapse Trailer
+                  </a>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-notes">
+            <div class="project-notes container">
+               <p class="section__subtitle">Dev <span>Notes</span></p>
+               <h2 class="section__title">What I Learned</h2>
+
+               <div class="project-notes__content">
+                  <p>
+                     I learned how to pace myself during development, how to tell which player feedback
+                     matters, and how to <span class="text-highlight">add fun while balancing</span> instead of only removing things. I learned
+                     a lot about balancing builds, boss fights, mob attacks, and progression. I also learned
+                     what players want, and I can now put myself in the player's shoes much faster. For
+                     future projects I will develop faster, focus more on polish, and release fewer bugs.
+                  </p>
+
+                  <a href="../../index.html#projects" class="button button--ghost">
+                     Back to all projects
+                  </a>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container container">
+            <a href="../../index.html#home" class="footer__title">William<span>Urvan</span></a>
+            <p class="footer__education">Game Developer and Software Engineer</p>
+
+            <div class="footer__social">
+               <a href="https://linktr.ee/williamurvan" target="_blank" rel="noreferrer" class="footer__social-link" aria-label="Linktree">
+                  <img src="../../assets/img/linktree.webp" alt="">
+               </a>
+            </div>
+
+            <span class="footer__copy">&#169; 2026 William Urvan. All rights reserved.</span>
+         </div>
+      </footer>
+
+      <a href="#project-top" class="scrollup" id="scroll-up" aria-label="Back to top">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <script src="../../assets/js/scrollreveal.min.js"></script>
+      <script src="../../assets/js/main.js?v=20260509"></script>
+   </body>
+</html>

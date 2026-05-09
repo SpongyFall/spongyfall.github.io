@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="shortcut icon" href="../../assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="../../assets/css/styles.css">
+
+      <title>Southern Bathtub Racing Game - William Urvan</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="../../index.html#home" class="nav__logo">William<span>Urvan</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="../../index.html#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#about" class="nav__link">About</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#skills" class="nav__link">Skills</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#services" class="nav__link">Services</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#projects" class="nav__link active-link">Projects</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="../../index.html#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <button class="nav__close" id="nav-close" aria-label="Close menu">
+                  <i class="ri-close-line"></i>
+               </button>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+               <i class="ri-menu-4-line"></i>
+            </button>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="project-hero section" id="project-top">
+            <div class="project-hero__container container grid">
+               <div class="project-hero__content">
+                  <a href="../../index.html#projects" class="project__back">
+                     <i class="ri-arrow-left-line"></i>
+                     Back to projects
+                  </a>
+
+                  <p class="section__subtitle">Senior <span>Project</span></p>
+                  <h1 class="project-hero__title">Southern Bathtub Racing Game</h1>
+                  <p class="project-hero__description">
+                     A KSU senior project where we turned a single-player SPSU bathtub racing game into
+                     a <span class="text-highlight">Steam multiplayer racing game</span> using GONet,
+                     Steamworks lobbies, Steam relay, and Unity.
+                  </p>
+
+                  <div class="project__tags">
+                     <span>Unity</span>
+                     <span>C#</span>
+                     <span>GONet</span>
+                     <span>Steamworks</span>
+                     <span>Steam Relay</span>
+                     <span>Lobby Systems</span>
+                     <span>Multiplayer Sync</span>
+                     <span>C-Day Winner</span>
+                  </div>
+
+                  <div class="project__actions">
+                     <a href="https://multiplayertubracinggame.com/" target="_blank" rel="noreferrer" class="button">
+                        Project Website
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                     <a href="https://drive.google.com/file/d/1r9M3KoXAz2_Z7JfARiN0gKSw1jW8X89S/view?usp=drive_link" target="_blank" rel="noreferrer" class="button button--ghost">
+                        Download Build
+                        <i class="ri-download-cloud-2-line"></i>
+                     </a>
+                     <a href="../../assets/img/bathtub-racing/project-poster.pdf" target="_blank" rel="noreferrer" class="button button--ghost">
+                        View Poster
+                        <i class="ri-file-text-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="project-hero__media project-hero__media--logo">
+                  <img src="../../assets/img/bathtub-racing/game-logo.png" alt="Southern Bathtub Racing Game logo" class="project-hero__logo">
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-overview">
+            <div class="project-layout container grid">
+               <aside class="project-facts">
+                  <h2 class="project-facts__title">Quick Facts</h2>
+
+                  <dl class="project-facts__list">
+                     <div>
+                        <dt>Role</dt>
+                        <dd>Primary Unity developer, multiplayer implementation</dd>
+                     </div>
+
+                     <div>
+                        <dt>Status</dt>
+                        <dd>Completed senior project</dd>
+                     </div>
+
+                     <div>
+                        <dt>Tools</dt>
+                        <dd>Unity, C#, GONet, Steamworks.NET, Steam relay</dd>
+                     </div>
+
+                     <div>
+                        <dt>Team</dt>
+                        <dd>4 students, with 2 Unity developers</dd>
+                     </div>
+
+                     <div>
+                        <dt>Recognition</dt>
+                        <dd>1st Place at KSU C-Day</dd>
+                     </div>
+                  </dl>
+               </aside>
+
+               <article class="project-writeup">
+                  <p class="section__subtitle">Project <span>Overview</span></p>
+                  <h2 class="section__title">What This Is</h2>
+
+                  <p>
+                     Southern Bathtub Race is a game commemorating the old SPSU bathtub races, where
+                     students raced custom bathtub karts around campus from
+                     <span class="text-highlight">1968 to 1991</span>. A previous senior project team
+                     built the original single-player version, and our team was assigned to continue it.
+                  </p>
+
+                  <p>
+                     Our sponsor created a multiplayer SDK called GONet, and our job was to
+                     turn the project into an <span class="text-highlight">online multiplayer game</span>:
+                     Steam lobbies, Steam relay, GONet session startup, synced karts and AI, race flow,
+                     and a working offline mode.
+                  </p>
+
+                  <p>
+                     I worked in Unity with one teammate while the other two focused on documentation,
+                     presentation material, and design docs. In practice, I owned most of the
+                     <span class="text-highlight">design and implementation</span> work, especially the
+                     Steamworks, GONet, lobby, race-flow, and sync systems.
+                  </p>
+               </article>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-achievement">
+            <div class="project-results container grid">
+               <div>
+                  <p class="section__subtitle">C-Day <span>Showcase</span></p>
+                  <h2 class="section__title">1st Place Undergraduate Project</h2>
+                  <p class="project-results__description">
+                     We presented the project at KSU's C-Day Computing Showcase and won
+                     <span class="text-highlight">first place</span> out of roughly 60 projects. It was a
+                     strong proof point that the project worked as more than a class assignment: we had
+                     a stable playable build, working multiplayer flow, and clear story for why the game mattered.
+                  </p>
+               </div>
+
+               <figure class="project-gallery__item">
+                  <img src="../../assets/img/bathtub-racing/1st-Place-Bathtub-Racing.jpg" alt="Southern Bathtub Racing Game team with first-place recognition at KSU C-Day">
+                  <figcaption>
+                     First place at KSU C-Day for the Southern Bathtub Racing Game.
+                  </figcaption>
+               </figure>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-role">
+            <div class="container">
+               <p class="section__subtitle">My <span>Role</span></p>
+               <h2 class="section__title">What I Built</h2>
+
+               <div class="project-role__grid grid">
+                  <article class="project-role__card">
+                     <i class="ri-steam-line"></i>
+                     <h3>Steam Lobby Flow</h3>
+                     <p>
+                        I integrated <span class="text-highlight">Steamworks</span> and built the lobby flow:
+                        hosting, joining, random matchmaking, lobby codes, player ordering, lobby metadata,
+                        and the handoff from Steam lobby state into a GONet race session.
+                     </p>
+                  </article>
+
+                  <article class="project-role__card">
+                     <i class="ri-router-line"></i>
+                     <h3>GONet Multiplayer</h3>
+                     <p>
+                        I wired GONet into the project and built the multiplayer sync around it: player kart
+                        ownership, deterministic spawn placement, race start coordination, AI sync, race data,
+                        disconnect handling, and cleanup between sessions.
+                     </p>
+                  </article>
+
+                  <article class="project-role__card">
+                     <i class="ri-gamepad-line"></i>
+                     <h3>Game Loop Polish</h3>
+                     <p>
+                        We finished early, so I started adding out-of-scope polish: offline mode, track
+                        selection, lap configuration, end-game flow, controller support, UI navigation,
+                        customization save/load, and bug fixes from the original build.
+                     </p>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-systems">
+            <div class="project-layout container grid">
+               <article class="project-writeup">
+                  <p class="section__subtitle">Technical <span>Work</span></p>
+                  <h2 class="section__title">The Hard Part</h2>
+
+                  <p>
+                     The hard part was not just "add multiplayer." It was getting <span class="text-highlight">Steam,
+                     GONet, Unity scenes, UI, and race logic</span> to agree on the same state. Steam handled
+                     social lobby presence, while GONet handled the actual race session. The lobby had to know
+                     when the host started, clients had to connect to the right Steam relay target, and the race
+                     could not start until every player was spawned correctly.
+                  </p>
+
+                  <p>
+                     I also fixed race logic that multiplayer exposed immediately: lap counting, waypoint
+                     tracking, player placement, track selection, race start timing, ownership, desyncs, and
+                     lobby state inconsistencies. A lot of the project became finding the exact place where UI,
+                     networking, and race state disagreed.
+                  </p>
+               </article>
+
+               <aside class="project-facts">
+                  <h2 class="project-facts__title">System Highlights</h2>
+                  <dl class="project-facts__list">
+                     <div>
+                        <dt>Steam</dt>
+                        <dd>Hosting, joining, random matchmaking, lobby codes, player metadata</dd>
+                     </div>
+                     <div>
+                        <dt>Networking</dt>
+                        <dd>GONet sessions over Steam relay with synchronized race state</dd>
+                     </div>
+                     <div>
+                        <dt>Race Flow</dt>
+                        <dd>Spawn order, countdowns, lap tracking, placement, end screen</dd>
+                     </div>
+                     <div>
+                        <dt>Polish</dt>
+                        <dd>Controller support, UI navigation, customization persistence</dd>
+                     </div>
+                  </dl>
+               </aside>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-gallery">
+            <div class="container">
+               <p class="section__subtitle">Screenshots <span>& Slots</span></p>
+               <h2 class="section__title">Gallery</h2>
+
+               <div class="project-gallery grid">
+                  <figure class="project-gallery__item project-gallery__item--wide">
+                     <img src="../../assets/img/bathtub-racing/main-menu-background.png" alt="Southern Bathtub Racing Game main menu background">
+                     <figcaption>Main visual for the game: SPSU campus style, hand-painted assets, and the bathtub racing theme.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/bathtub-racing/track-thumbnail.png" alt="Southern Bathtub Racing Game track thumbnail">
+                     <figcaption>In-game track screenshot modeled off of the old campus.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item">
+                     <img src="../../assets/img/bathtub-racing/old-campus-map.png" alt="SPSU map used as reference for the game">
+                     <figcaption>The original campus map made by the BRA.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item project-image-slot">
+                     <div class="project-image-slot__content">
+                        <i class="ri-team-line"></i>
+                        <span>Multiplayer lobby slot</span>
+                     </div>
+                     <figcaption>I need a screenshot of the Steam lobby UI here.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item project-image-slot">
+                     <div class="project-image-slot__content">
+                        <i class="ri-roadster-line"></i>
+                        <span>Race gameplay slot</span>
+                     </div>
+                     <figcaption>I need a in-race multiplayer screenshot here, ideally with multiple racers visible.</figcaption>
+                  </figure>
+
+                  <figure class="project-gallery__item project-gallery__item--wide project-poster">
+                     <iframe src="../../assets/img/bathtub-racing/project-poster.pdf#toolbar=0&navpanes=0" title="C-Day project poster preview" class="project-poster__frame"></iframe>
+                     <figcaption>
+                        C-Day project poster. The full PDF is also openable in the links section.
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-results">
+            <div class="project-results container grid">
+               <div>
+                  <p class="section__subtitle">Links <span>& Proof</span></p>
+                  <h2 class="section__title">Where To Find It</h2>
+                  <p class="project-results__description">
+                     You can read more about the project, download the playable Windows build, view the C-Day
+                     first-place listing, or open the poster we presented at the showcase.
+                  </p>
+               </div>
+
+               <div class="project-links">
+                  <a href="https://multiplayertubracinggame.com/" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-global-line"></i>
+                     Project Website
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1r9M3KoXAz2_Z7JfARiN0gKSw1jW8X89S/view?usp=drive_link" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-download-cloud-2-line"></i>
+                     Download Windows Build
+                  </a>
+
+                  <a href="https://campus.kennesaw.edu/colleges-departments/ccse/events/computing-showcase/sp26-cday-winners.php" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-trophy-line"></i>
+                     C-Day First Place Listing
+                  </a>
+
+                  <a href="../../assets/img/bathtub-racing/project-poster.pdf" target="_blank" rel="noreferrer" class="project-link">
+                     <i class="ri-file-text-line"></i>
+                     Project Poster
+                  </a>
+               </div>
+            </div>
+         </section>
+
+         <section class="project-section section" id="project-notes">
+            <div class="project-notes container">
+               <p class="section__subtitle">Dev <span>Notes</span></p>
+               <h2 class="section__title">What I Learned</h2>
+
+               <div class="project-notes__content">
+                  <p>
+                     Coming from Cave Crawlers, I already had a strong base in Unity and multiplayer
+                     networking, so most of this project felt pretty natural. The main new things I picked
+                     up were <span class="text-highlight">GONet</span>, <span class="text-highlight">Steamworks.NET</span>,
+                     controller support for Unity UI, and Unity's newer input system. I also got more
+                     comfortable using GitHub in a real team project, with commits, documentation, and
+                     handoff work that other people could actually follow.
+                  </p>
+
+                  <a href="../../index.html#projects" class="button button--ghost">
+                     Back to all projects
+                  </a>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container container">
+            <a href="../../index.html#home" class="footer__title">William<span>Urvan</span></a>
+            <p class="footer__education">Game Developer and Software Engineer</p>
+
+            <div class="footer__social">
+               <a href="https://linktr.ee/williamurvan" target="_blank" rel="noreferrer" class="footer__social-link" aria-label="Linktree">
+                  <img src="../../assets/img/linktree.webp" alt="">
+               </a>
+            </div>
+
+            <span class="footer__copy">&#169; 2026 William Urvan. All rights reserved.</span>
+         </div>
+      </footer>
+
+      <a href="#project-top" class="scrollup" id="scroll-up" aria-label="Back to top">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <script src="../../assets/js/scrollreveal.min.js"></script>
+      <script src="../../assets/js/main.js?v=20260509"></script>
+   </body>
+</html>

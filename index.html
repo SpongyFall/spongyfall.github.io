@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-   <html lang="en">
+<html lang="en">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,62 +13,276 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website - Bedimcode</title>
+      <title>William Urvan Portfolio</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#home" class="nav__logo">William<span>Urvan</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#skills" class="nav__link">Skills</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#services" class="nav__link">Services</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <button class="nav__close" id="nav-close" aria-label="Close menu">
+                  <i class="ri-close-line"></i>
+               </button>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+               <i class="ri-menu-4-line"></i>
+            </button>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <p class="home__subtitle">Hello, <span>I'm</span></p>
+                  <h1 class="home__title">William Urvan</h1>
+                  <h2 class="home__education">Game Developer and Software Engineer</h2>
+                  <p class="home__description">
+                     I make games for a living. I've developed with C# and Unity for years, shipping multiple titles.
+                     My brother and I made <a href="https://store.steampowered.com/app/2143030/Cave_Crawlers/" class="home__subtitle"><span>Cave Crawlers</span></a>,
+                     our most passionate project, which has reached <a class="home__subtitle">millions</a> of Steam page views and <a class="home__subtitle">hundreds of thousands</a> of players.
+                  </p>
+
+                  <div class="home__buttons">
+                     <a href="#projects" class="button">See Projects</a>
+                     <a href="#contact" class="button button--ghost">Contact Me</a>
+                  </div>
+               </div>
+
+               <div class="home__image">
+                  <img src="assets/img/perfil.png" alt="William Urvan profile placeholder" class="home__img">
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <div class="about__intro">
+                  <p class="section__subtitle">My <span>Intro</span></p>
+                  <h2 class="section__title">About Me</h2>
+               </div>
+
+               <div class="about__content">
+                  <p class="about__description">
+                     I'm graduating with a <span class="text-highlight">BS in Computer Science</span>,
+                     and I'm a competitive gamer who loves to learn and build things. As a hardcore
+                     gamer, I own hundreds of games and have <span class="text-highlight">over 14,000 hours played</span>.
+                  </p>
+
+                  <p class="about__description">
+                     I love <span class="text-highlight">survival games, RPGs, and competitive multiplayer</span>.
+                     I grew up playing games like Terraria and World of Warcraft, and that mix of
+                     <span class="text-highlight">progression, exploration, and player-driven stories</span>
+                     is a huge part of why I make games.
+                  </p>
+
+                  <div class="about__stats">
+                     <div class="about__stat">
+                        <span class="about__number">03+</span>
+                        <span class="about__label">Projects</span>
+                     </div>
+
+                     <div class="about__stat">
+                        <span class="about__number">10+</span>
+                        <span class="about__label">Experiments</span>
+                     </div>
+
+                     <div class="about__stat">
+                        <span class="about__number">01</span>
+                        <span class="about__label">Portfolio</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== SKILLS ====================-->
-         <section class="skills section">
-            
+         <section class="skills section" id="skills">
+            <div class="skills__container container grid">
+               <div>
+                  <p class="section__subtitle">Favorite <span>Skills</span></p>
+                  <h2 class="section__title">What I Use</h2>
+                  <p class="skills__description">
+                     Replace these with the real tools, languages, engines, and creative apps you
+                     use. Keep it simple: this section should help people quickly understand your
+                     toolkit.
+                  </p>
+               </div>
+
+               <div class="skills__content">
+                  <span class="skills__item">Unity</span>
+                  <span class="skills__item">C#</span>
+                  <span class="skills__item">.NET</span>
+                  <span class="skills__item">Python</span>
+                  <span class="skills__item">Game Design</span>
+                  <span class="skills__item">Github</span>
+                  <span class="skills__item">Photon</span>
+                  <span class="skills__item">Playfab</span>
+                  <span class="skills__item">Steamworks</span>
+                  <span class="skills__item">Java</span>
+               </div>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section" id="services">
-            
+            <div class="container">
+               <p class="section__subtitle">What <span>I Do</span></p>
+               <h2 class="section__title">Focus Areas</h2>
+
+               <div class="services__container grid">
+                  <article class="services__card">
+                     <i class="ri-code-s-slash-line services__icon"></i>
+                     <h3 class="services__title">Web Projects</h3>
+                     <p class="services__description">
+                        Filler text about websites, tools, prototypes, or interactive ideas that
+                        are easy to share online.
+                     </p>
+                  </article>
+
+                  <article class="services__card">
+                     <i class="ri-gamepad-line services__icon"></i>
+                     <h3 class="services__title">Game Projects</h3>
+                     <p class="services__description">
+                        Filler text about gameplay ideas, systems, levels, mechanics, or small
+                        playable experiments.
+                     </p>
+                  </article>
+
+                  <article class="services__card">
+                     <i class="ri-movie-2-line services__icon"></i>
+                     <h3 class="services__title">Project Writeups</h3>
+                     <p class="services__description">
+                        Filler text about screenshots, videos, dev notes, progress logs, and
+                        explaining what you learned.
+                     </p>
+                  </article>
+               </div>
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            
+            <div class="container">
+               <p class="section__subtitle">My <span>Work</span></p>
+               <h2 class="section__title">Recent Projects</h2>
+
+               <div class="projects__container grid">
+                  <article class="projects__card">
+                     <img src="assets/img/cavecrawlers/Main_Capsule.png" alt="Cave Crawlers capsule art" class="projects__img">
+
+                     <div class="projects__content">
+                        <p class="projects__subtitle">Released Game</p>
+                        <h3 class="projects__title">Cave Crawlers</h3>
+                        <p class="projects__description">
+                           A free-to-play multiplayer roguelite RPG built in Unity by a two-person team,
+                           featuring procedural caves, talent builds, loot, and boss fights.
+                        </p>
+                        <a href="projects/project-one/" class="projects__button">
+                           View case study <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                     </div>
+                  </article>
+
+                  <article class="projects__card">
+                     <img src="assets/img/bathtub-racing/main-menu-background.png" alt="Southern Bathtub Racing Game main visual" class="projects__img">
+
+                     <div class="projects__content">
+                        <p class="projects__subtitle">Senior Project</p>
+                        <h3 class="projects__title">Southern Bathtub Racing Game</h3>
+                        <p class="projects__description">
+                           A KSU senior project where I turned a single-player SPSU bathtub racing game
+                           into a Steam multiplayer game with GONet networking.
+                        </p>
+                        <a href="projects/bathtub-racing/" class="projects__button">
+                           View case study <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                     </div>
+                  </article>
+
+               </div>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <div class="contact__container container grid">
+               <div>
+                  <p class="section__subtitle">Let's <span>Talk</span></p>
+                  <h2 class="section__title">Contact Me</h2>
+                  <p class="contact__description">
+                     Want to talk about a project, build, internship, or game dev stuff?
+                     Linktree has my socials, email, and the other places I am easiest to reach.
+                  </p>
+
+                  <div class="contact__links">
+                     <a href="https://linktr.ee/williamurvan" target="_blank" rel="noreferrer" class="contact__link">
+                        <img src="assets/img/linktree.webp" alt="" class="social__icon">
+                        Linktree
+                     </a>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container">
+            <a href="#home" class="footer__title">William<span>Urvan</span></a>
+            <p class="footer__education">Game Developer and Software Engineer</p>
+
+            <div class="footer__social">
+               <a href="https://linktr.ee/williamurvan" target="_blank" rel="noreferrer" class="footer__social-link" aria-label="Linktree">
+                  <img src="assets/img/linktree.webp" alt="">
+               </a>
+            </div>
+
+            <span class="footer__copy">&#169; 2026 William Urvan. All rights reserved.</span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top">
+         <i class="ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-
-      <!--=============== EMAIL JS ===============-->
-      
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
+      <script src="assets/js/main.js?v=20260509"></script>
    </body>
 </html>
