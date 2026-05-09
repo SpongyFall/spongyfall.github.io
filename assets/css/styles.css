@@ -6,14 +6,14 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --hue: 162;
-  --first-color: hsl(var(--hue), 100%, 40%);
-  --first-color-alt: hsl(var(--hue), 56%, 35%);
+  --hue: 193;
+  --first-color: hsl(var(--hue), 100%, 55%);
+  --first-color-alt: hsl(var(--hue), 80%, 43%);
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 65%);
-  --body-color: hsl(228, 15%, 20%);
-  --container-color: hsl(228, 15%, 15%);
-  --border-color: hsl(228, 15%, 26%);
+  --body-color: hsl(228, 18%, 13%);
+  --container-color: hsl(228, 16%, 18%);
+  --border-color: hsl(228, 14%, 28%);
   --white-color: hsl(0, 0%, 100%);
 
   /*========== Font and typography ==========*/
@@ -35,6 +35,24 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+}
+
+.theme-cyan {
+  --hue: 193;
+  --first-color: hsl(var(--hue), 100%, 55%);
+  --first-color-alt: hsl(var(--hue), 80%, 43%);
+}
+
+.theme-ember {
+  --hue: 28;
+  --first-color: hsl(var(--hue), 100%, 58%);
+  --first-color-alt: hsl(var(--hue), 78%, 46%);
+}
+
+.theme-green {
+  --hue: 162;
+  --first-color: hsl(var(--hue), 100%, 40%);
+  --first-color-alt: hsl(var(--hue), 56%, 35%);
 }
 
 /*========== Responsive typography ==========*/

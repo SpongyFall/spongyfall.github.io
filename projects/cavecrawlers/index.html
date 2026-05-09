@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-ember">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <link rel="shortcut icon" href="../../assets/img/favicon.png" type="image/x-icon">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
-      <link rel="stylesheet" href="../../assets/css/styles.css">
+      <style>
+         html.theme-ember {
+            --hue: 28;
+            --first-color: hsl(var(--hue), 100%, 58%);
+            --first-color-alt: hsl(var(--hue), 78%, 46%);
+            --body-color: hsl(228, 18%, 13%);
+            --container-color: hsl(228, 16%, 18%);
+            --border-color: hsl(228, 14%, 28%);
+         }
+      </style>
+      <link rel="stylesheet" href="../../assets/css/styles.css?v=themes5">
 
       <title>Cave Crawlers - William Urvan</title>
    </head>
@@ -144,9 +154,10 @@
 
                   <p>
                      My brother and I started Cave Crawlers many years ago as a passion project. I am the
-                     <span class="text-highlight">sole gameplay programmer</span>, while he handles art
-                     and level design. We both do game design, evaluate player feedback, and keep improving
-                     the experience.
+                     <span class="text-highlight">sole gameplay programmer</span> with over 
+                     <span class="text-highlight">2500+ hours</span> of development, while is the artist
+                     and level designer. We both do game design, evaluate player feedback, and iteratively
+                     improve the experience.
                   </p>
 
                </article>
@@ -168,7 +179,7 @@
                         items, XP, tasks, achievements, boss fights, and event rooms. I worked extensively with
                         <span class="text-highlight">Photon multiplayer</span> to create the server browser,
                         lobby system, generation sync, spawning sync, player stats, physics, and more. I
-                        implemented Steamworks for lobbies and player status, and integrated
+                        implemented <span class="text-highlight">Steamworks</span> for lobbies and player status, as well as
                         <span class="text-highlight">PlayFab</span> for analytics and LiveOps.
                      </p>
                   </article>
@@ -177,7 +188,7 @@
                      <i class="ri-gamepad-line"></i>
                      <h3>Design</h3>
                      <p>
-                        We use Trello to organize development, track tasks, and record new ideas. Every
+                        We use  <span class="text-highlight">Trello</span> to organize development, track tasks, and record new ideas. Every
                         month we decide what needs to be finished for the next update. We follow player
                         suggestions, bug reports, and our own ideas, steering Cave Crawlers toward the
                         game both we and the players want to see.
@@ -357,6 +368,6 @@
       </a>
 
       <script src="../../assets/js/scrollreveal.min.js"></script>
-      <script src="../../assets/js/main.js?v=20260509"></script>
+      <script src="../../assets/js/main.js?v=themes5"></script>
    </body>
 </html>

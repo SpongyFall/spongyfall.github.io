@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-cyan">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,17 @@
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+      <style>
+         html.theme-cyan {
+            --hue: 193;
+            --first-color: hsl(var(--hue), 100%, 55%);
+            --first-color-alt: hsl(var(--hue), 80%, 43%);
+            --body-color: hsl(228, 18%, 13%);
+            --container-color: hsl(228, 16%, 18%);
+            --border-color: hsl(228, 14%, 28%);
+         }
+      </style>
+      <link rel="stylesheet" href="assets/css/styles.css?v=themes5">
 
       <title>William Urvan Portfolio</title>
    </head>
@@ -96,32 +106,48 @@
 
                <div class="about__content">
                   <p class="about__description">
-                     I'm graduating with a <span class="text-highlight">BS in Computer Science</span>,
-                     and I'm a competitive gamer who loves to learn and build things. As a hardcore
-                     gamer, I own hundreds of games and have <span class="text-highlight">over 14,000 hours played</span>.
+                     Along with a <span class="text-highlight">BS in Computer Science</span>,
+                     I'm a competitive gamer who loves to learn and build projects.
+                     As a game developer for <span class="text-highlight">5+ years</span>, I have
+                     <span class="text-highlight">3,000+ recorded development hours</span>.
+                     As a hardcore gamer, I own hundreds of games and have
+                     <span class="text-highlight">14,000+ hours played</span>.
                   </p>
 
                   <p class="about__description">
-                     I love <span class="text-highlight">survival games, RPGs, and competitive multiplayer</span>.
-                     I grew up playing games like Terraria and World of Warcraft, and that mix of
+                     When I begin a project, I finish it. I don't like to drop things, I
+                     develop till the <span class="text-highlight">requirements are satisfied</span>,
+                     then I'll add a little more. I work tirelessly to achieve completion,
+                     <span class="text-highlight">and won't stop till the players get an update.</span>
+                     I take critique very well.
+                  </p>
+
+                  <p>
+                     I've always loved to <span class="text-highlight">learn and improve</span>, no matter the
+                     situation. Just ask my professors, mentors, or anyone I know. They'll tell ya.
+                  </p>
+
+                  <p class="about__description">
+                     I love <span class="text-highlight">survival, RPG, and competitive multiplayer</span> games.
+                     I grew up playing them, have thousands of hours in some, and is why that mix of
                      <span class="text-highlight">progression, exploration, and player-driven stories</span>
                      is a huge part of why I make games.
                   </p>
 
                   <div class="about__stats">
                      <div class="about__stat">
-                        <span class="about__number">03+</span>
+                        <span class="about__number">7+</span>
                         <span class="about__label">Projects</span>
                      </div>
 
                      <div class="about__stat">
-                        <span class="about__number">10+</span>
-                        <span class="about__label">Experiments</span>
+                        <span class="about__number">5+</span>
+                        <span class="about__label">Years Experience</span>
                      </div>
 
                      <div class="about__stat">
-                        <span class="about__number">01</span>
-                        <span class="about__label">Portfolio</span>
+                        <span class="about__number">3000+</span>
+                        <span class="about__label">Dev Hours</span>
                      </div>
                   </div>
                </div>
@@ -135,9 +161,10 @@
                   <p class="section__subtitle">Favorite <span>Skills</span></p>
                   <h2 class="section__title">What I Use</h2>
                   <p class="skills__description">
-                     Replace these with the real tools, languages, engines, and creative apps you
-                     use. Keep it simple: this section should help people quickly understand your
-                     toolkit.
+                     I've worked with C# and .NET for ma
+                     Don't let this skill list stop you, I constantly learn new tools and development
+                     strategies during every project. Give me a tool or task I don't know, and
+                     <span class="text-highlight">I'll learn it very fast.</span>
                   </p>
                </div>
 
@@ -164,29 +191,33 @@
 
                <div class="services__container grid">
                   <article class="services__card">
-                     <i class="ri-code-s-slash-line services__icon"></i>
-                     <h3 class="services__title">Web Projects</h3>
+                     <i class="ri-gamepad-line services__icon"></i>
+                     <h3 class="services__title">Game Projects</h3>
                      <p class="services__description">
-                        Filler text about websites, tools, prototypes, or interactive ideas that
-                        are easy to share online.
+                        I love making games, and would love to work on yours. I develop with
+                        passion and intention. I actually play the games I develop, placing myself in
+                        the mindset of the player, allowing me to understand their feedback.
+                        My golden rule: <span class="text-highlight">If I enjoy playing, then they'll enjoy it to.</span>
                      </p>
                   </article>
 
                   <article class="services__card">
-                     <i class="ri-gamepad-line services__icon"></i>
-                     <h3 class="services__title">Game Projects</h3>
+                     <i class="ri-code-s-slash-line services__icon"></i>
+                     <h3 class="services__title">Tech Projects</h3>
                      <p class="services__description">
-                        Filler text about gameplay ideas, systems, levels, mechanics, or small
-                        playable experiments.
+                        I love to work on anything tech. I create personal tech projects using new
+                        tools all the time, as it is a hobby of mine to learn. I am a
+                        <span class="text-highlight">self taught Unity and C# programmer</span>.
                      </p>
                   </article>
 
                   <article class="services__card">
                      <i class="ri-movie-2-line services__icon"></i>
-                     <h3 class="services__title">Project Writeups</h3>
+                     <h3 class="services__title">Business Management</h3>
                      <p class="services__description">
-                        Filler text about screenshots, videos, dev notes, progress logs, and
-                        explaining what you learned.
+                        As the manager and founder of Heroic Pyxel LLC, whom operates owns Cave Crawlers,
+                        I've dabbled in many different business operations over the years.
+                        <span class="text-highlight">I know how to manage a business.</span>
                      </p>
                   </article>
                </div>
@@ -210,7 +241,7 @@
                            A free-to-play multiplayer roguelite RPG built in Unity by a two-person team,
                            featuring procedural caves, talent builds, loot, and boss fights.
                         </p>
-                        <a href="projects/project-one/" class="projects__button">
+                        <a href="projects/cavecrawlers/" class="projects__button">
                            View case study <i class="ri-arrow-right-up-line"></i>
                         </a>
                      </div>
@@ -243,8 +274,8 @@
                   <p class="section__subtitle">Let's <span>Talk</span></p>
                   <h2 class="section__title">Contact Me</h2>
                   <p class="contact__description">
-                     Want to talk about a project, build, internship, or game dev stuff?
-                     Linktree has my socials, email, and the other places I am easiest to reach.
+                     Want to talk about a project, idea, or anything games?
+                     Linktree has my socials and email, let's get in touch!
                   </p>
 
                   <div class="contact__links">
@@ -283,6 +314,6 @@
       <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js?v=20260509"></script>
+      <script src="assets/js/main.js?v=themes5"></script>
    </body>
 </html>
